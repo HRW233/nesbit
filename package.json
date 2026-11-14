@@ -1,0 +1,19 @@
+{
+  "name": "nesbit",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A small 3D island where an AI bird lives, reads the web, builds sites, and keeps hobbies.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 3000",
+    "build:pages": "vite build --base=/nesbit/ --outDir docs"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
